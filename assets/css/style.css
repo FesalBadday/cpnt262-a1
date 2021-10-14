@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #3b3939;
+}
+
+.mode-toggle {
+  background-color: #3b3939;
+  filter: brightness(.6);
+  color: #ffffff;
+}
+
+.bi-lightbulb-fill.lightbulb-toggle {
+  color: #313030;
+}
+
+.bi-lightbulb-fill {
+  display: block;
+  margin: 2rem;
+  color: #ffbb00;
+  cursor: pointer;
+  width: 0;
+}
+
+.pic-hero-sec {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0 0 0 / 80%), rgba(0 0 0 / 80%)), url('../images/hero-truck-pic.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.txt-hero-sec {
+  text-align: center;
+  color: #0075b2;
+  text-shadow: 1px 1px 1px #8a2be2;
+}
+
+.txt-hero-sec:hover {
+  color: #8a2be2;
+  text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.555), 0 0 1em rgba(195, 0, 255, 0.342), 0 0 0.2em rgb(0, 0, 255);
+}
+
+.ab-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem;
+  font-weight: bolder;
+}
+
+.ab-img {
+  max-width: 40%;
+}
+
+.ab-section p {
+  min-width: 20ch;
+  max-width: 75ch;
+  padding: 0rem 1rem;
+}
+
+.head-section {
+  text-shadow: 1px 1px 1px #8a2be2;
+}
+
+.ref {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ref img:hover {
+  opacity: 0.5;
+}
+
+.ref img {
+  width: 60%;
+}
+
+.ref ul {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+/* Footer */
+
+footer {
+  margin-top: auto;
+  background-color: #111010;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #8a2be2;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+footer ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+
+.facebook:hover {
+  color: #1977f3;
+}
+
+.youtube:hover {
+  color: #ff0000;
+}
+
+.twitter:hover {
+  color: #5da9dd;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1473px) {
+  .ga-hero-sec {
+    height: 50vh;
+  }
+  .ab-img {
+    max-width: 90%;
+  }
+}

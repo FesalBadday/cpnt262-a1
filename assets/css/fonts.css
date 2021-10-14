@@ -1,0 +1,42 @@
+.txt-hero-sec {
+  font-family: 'Bevan', cursive;
+  /* clamp(MIN, VAL, MAX) */
+  font-size: clamp(2rem, 4vw, 8rem);
+}
+
+.bi-lightbulb-fill {
+  /* clamp(MIN, VAL, MAX) */
+  font-size: clamp(3.5rem, 4vw, 8rem);
+}
+
+main {
+  font-family: 'Lemonada', cursive;
+}
+
+.ab-section p {
+  /* clamp(MIN, VAL, MAX) */
+  font-size: clamp(1rem, 1vw, 1.2rem);
+}
+
+.head-section {
+  /* clamp(MIN, VAL, MAX) */
+  font-size: clamp(1.4rem, 1.1vw, 2rem);
+}
+
+.ref {
+  /* clamp(MIN, VAL, MAX) */
+  font-size: clamp(0.8rem, 1.4vw, 1.2rem);
+}
+
+/* Footer */
+
+footer p {
+  font-family: 'Lemonada', cursive;
+  /* clamp(MIN, VAL, MAX) */
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+footer li {
+  /* clamp(MIN, VAL, MAX) */
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
