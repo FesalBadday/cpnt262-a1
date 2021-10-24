@@ -10,7 +10,7 @@ body {
   color: #ffffff;
 }
 
-.bi-lightbulb-fill.lightbulb-toggle {
+.mode-toggle .bi-lightbulb-fill {
   color: #313030;
 }
 
