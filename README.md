@@ -4,9 +4,9 @@
 
 **Author :** Fesal Badday
 
-**Repo :** [Github Repo](https://github.com/FesalBadday/cpnt262-a1)
+**Repo :** [Github Repo](https://github.com/FesalBadday/dark-mode-toggle)
 
-**Site :** [Github Pages](https://FesalBadday.github.io/cpnt262-a1)
+**Site :** [Github Pages](https://FesalBadday.github.io/dark-mode-toggle)
 
 **Information :**
 
